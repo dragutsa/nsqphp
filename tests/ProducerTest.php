@@ -38,8 +38,7 @@ final class ProducerTest extends TestCase
      */
     public function data(): Generator
     {
-        yield ['Yo!', 'Yo!'.PHP_EOL];
-        yield ['Yo!', 'Yo!'.PHP_EOL];
+        yield ['Test Message One!', 'Test Message One!'.PHP_EOL];
     }
 
     /**
